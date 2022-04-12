@@ -1,0 +1,33 @@
+<div class="full">
+    <div class="calculator">
+        <input type="text" value="{{ screen }}" />
+    </div>
+    <div class="container">
+        <b>
+            <h1>
+                <input type="button" value="1" (click)="intervalue('1')">
+                <input type="button" value="2" (click)="intervalue('2')">
+                <input type="button" value="3" (click)="intervalue('3')">
+                <input type="button" value="+" (click)="condition('+')">
+            </h1>
+            <h1>
+                <input type="button" value="4" (click)="intervalue('4')">
+                <input type="button" value="5" (click)="intervalue('5')">
+                <input type="button" value="6" (click)="intervalue('6')">
+                <input type="button" value="-" (click)="condition('-')">
+            </h1>
+            <h1>
+                <input type="button" value="7" (click)="intervalue('7')">
+                <input type="button" value="8" (click)="intervalue('8')">
+                <input type="button" value="9" (click)="intervalue('9')">
+                <input type="button" value="*" (click)="condition('*')">
+            </h1>
+            <h1>
+                <input type="button" value="0" (click)="intervalue('0')">
+                <input type="button" value="/" (click)="condition('/')">
+                <input type="button" value="=" (click)="result()">
+                <input type="button" value="C" (click)="clear()">
+            </h1>
+        </b>
+    </div>
+</div>

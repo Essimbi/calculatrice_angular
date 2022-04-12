@@ -1,0 +1,28 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.container input{
+    color: white;
+    height: 50px;
+    width: 90px;
+    border-radius: 10px;
+    border: 2px dashed red;
+    margin: 2px;
+    font-size: xx-large;
+    background-color: black;
+}
+.calculator input{
+    width: 98%;
+    height: 55px;
+    border-radius: 8px;
+    border: 3px dotted rebeccapurple;
+    background-color: lightcyan;
+    font-size: xx-large;
+}
+.full{
+    border: 10px solid grey;
+    margin-top: 7%;
+    margin-left: 30%;
+    padding: 12px;
+    width: 33%;
+    border-radius: 20px;
+}
